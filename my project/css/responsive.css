@@ -1,0 +1,58 @@
+@media screen and (max-width: 1346px) {
+  nav {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .logo {
+    justify-content: center;
+    margin: 12px 0px;
+  }
+  .logo img {
+    margin: 0px;
+  }
+  .search {
+    justify-content: center;
+    margin: 7px;
+  }
+  .loginbutton {
+    display: none;
+  }
+
+  .a {
+    display: none;
+  }
+  .more {
+    display: none;
+  }
+  .slider {
+    align-items: center;
+  }
+  .slider img {
+    width: 50vw;
+    height: 28vw;
+  }
+
+  .card h2 {
+    flex-direction: column;
+  }
+  .card h2 button {
+    margin: 0px;
+  }
+
+  .card-item img {
+    width: 10vw;
+  }
+  .card1 h2 {
+    flex-direction: column;
+  }
+  .card1 h2 button {
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+    .line p{
+        font-size: 12px;
+    }
+}

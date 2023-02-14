@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-bg-color: rgb(86, 56, 157);
+}
+
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Anek Devanagari", sans-serif;
+}
+nav {
+  
+  height: 5vh;
+  display: flex;
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin: 0 0 0 166px;
+  width: 88px;
+  padding: 0 6px;
+}
+.logo img:hover {
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 29vw;
+  height: 3vh;
+  border-radius: 3px;
+  padding: 0 13px;
+}
+.loginbutton {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.loginbutton input:hover {
+  cursor: pointer;
+}
+.loginbutton input{
+  width: 7vw;
+  height: 3vh;
+}
+.a {
+  display: flex;
+  align-items: center;
+}
+.a ul li {
+  margin-left: 130px;
+}
+.a ul li a:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.more {
+  display: flex;
+  align-items: center;
+}
+.more input:hover {
+  cursor: pointer;
+}
+header nav ul {
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 100vw;
+  min-height: calc(100vh - 7vh - 4vh);
+  background-color: antiquewhite;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+.slider img {
+  margin-top: 5px;
+  width: 50vw;
+  height: 20vw;
+}
+.card {
+  background-color: white;
+  max-width: 86vw;
+  margin: 10px auto;
+}
+.card h2 {
+  display: flex;
+  align-items: center;
+}
+.card h2 button {
+  margin-left: 65vw;
+  padding: 0px 20px;
+  height: 29px;
+}
+.card-item {
+  width: 13vw;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-item img {
+  width: 170px;
+}
+.card h2 {
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: bolder;
+}
+.line:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+.line p {
+  font-family: "Anek Devanagari", sans-serif;
+}
+.card1 {
+  background-color: white;
+  max-width: 86vw;
+  margin: 10px auto;
+  font-family: "Anek Devanagari", sans-serif;
+}
+.card1 h2 {
+  display: flex;
+  align-items: center;
+}
+.card1 h2 button {
+  margin-left: 60vw;
+  padding: 0px 20px;
+  height: 29px;
+}
+
+footer {
+  height: 4vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Anek Devanagari", sans-serif;
+}
